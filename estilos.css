@@ -677,3 +677,352 @@ footer{
                 font-size: 0.5rem;
         }
     }}}
+    @media screen and (max-width: 767px) {
+        .navbar{
+            padding: 0px;
+            height: 60px; 
+            .col-iconHeader{
+                width: 10px;
+                padding: 0px;
+                margin: 0px;
+            }  
+            .icon-header{
+                width:30px;
+                height: 30px;
+            }
+            .nav-link{
+                width: 55px;
+                padding: 2px;
+                font-size: 0.6rem;
+                margin: 5px;
+            }
+            .cv{
+                width: 50px;
+                padding: 4px 10px;
+                font-size: 0.6rem;
+                margin: 0px;
+            }
+        }
+    
+        /*PORTADA*/
+        .title{
+            font-size: 1.3rem;
+        }
+        .icons{
+            padding-bottom: 10px;
+            .fab{
+                font-size: 1rem;
+                padding: 10px;
+                margin: 5px;
+            }
+        }
+        .p-portada{
+            font-size: 0.6rem;
+            margin:0px;
+        }
+        .fa-arrow-down-long{
+            animation: float 2s infinite ease-in;
+        }
+        .texto-btn{
+            font-size: 0.6rem;
+            padding:5px 8px;
+            
+        }
+        
+        /*SERVICIOS*/
+        .servicios{
+            height: 50px;
+            .icon-servicios{
+                height: 0px;
+                width: 0px;  
+            }
+            .lista{
+                list-style: none;
+                .list-servicios{
+                    width: 500px;
+                    font-size: 0.5rem;
+                }
+            }
+        }
+        
+        /*COMUNES*/
+        .text-intro{
+            font-size: 0.66rem;
+            padding-bottom: 5px;
+        }
+        
+        /*SOBRE MI*/
+        .col-portada{
+            padding:0px;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        #sobremi{
+            padding-top: 10px ;
+        }
+        .col-portada2{
+            padding:30px;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        .img-perfil{
+            width:140px;
+            height:140px;
+            padding: 0px;
+            margin:0px
+        }
+        .textos-sobreMi{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .text-yo{
+            font-size: 0.66rem;
+            width:100%;
+            text-align: justify;
+        }
+        .skills{
+            font-size: 0.8rem;
+        }
+        .tecnologias-logo1{
+            width:30px;
+            height: 30px;
+            margin:10px
+        }
+        
+        /*MIS PROYECTOS*/
+        .section-portfolio{
+            margin-top:10px;
+            padding-top: 5px;
+        }
+        .intro-proyectos{
+            width:90%;
+            padding-bottom: 15px;
+            font-size: 0.66rem;
+            
+        }
+        .container-proyectos{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .proyecto-card{
+            width: 220px;
+            height: 240px;
+            border-radius: 10px;
+        
+            .intro-proyecto{
+                font-size: 0.4rem;
+            }
+            .text-proyecto{
+                font-size: 0.5rem;
+                margin: 0px;
+                padding: 0px;
+            }
+            .img-proyecto{
+                width: 200px;
+                height: 100px;
+                margin: 5px;
+                border-radius: 10px;
+            }
+            .fa-chevron-right{
+                padding: 6px 8px;
+                font-size: 0.5rem;
+                margin:0px
+            }
+            .card-title{
+                font-size: 1rem;
+            }
+            .video-dvc{
+                width: 200px;
+                border-radius: 10px;
+                height: 100px;
+            }}
+        
+        /*EXPERIENCIA Y ESTUDIOS*/
+        .section-estudios{
+            padding-top: 20px;
+            margin-top: 0px;
+            margin-bottom: 5px;
+        }
+        .col-8{
+            padding:20px;
+        }
+        .experiencia-estudio{
+            .columna{
+                width:100%;
+                margin:0px;
+                padding: 0px;
+            
+                h3{
+                    font-size: 0.8rem;
+                    width: 100%;
+                }
+                li{
+                    font-size: 0.66rem;
+                }
+                p{
+                    font-size: 0.66rem;
+                    text-align: justify;
+                }
+            }
+        }
+        /*Trabajemos juntos*/
+        .section-contacto{
+            margin: 10px;
+            padding: 10px 0px;
+        }
+        .icons-contacto{
+            width: 400px;
+        }
+        .btn-contacto{
+            padding:5px 10px;
+            font-size: 0.6rem;
+            margin: 5px;
+            border-radius: 20px;
+            .icon-trabajemos{
+                padding-right: 5px;
+            }
+        }  
+        .intro-contacto{
+            text-align: center;
+            width:100%;
+            font-size: 0.66rem;
+            margin: 0px;
+            padding-bottom: 30px;
+        }
+        form{
+            padding-top: 10px;
+            .form-control{
+                font-size: 0.66rem;
+            }
+            .input-form{
+                width:200px;
+            }
+            .btn{
+                padding:6px 20px;
+                font-size: 0.66rem;
+                }
+        }
+        /*FOOTER*/
+        footer{
+            .footer-info{
+                height: 25vh;
+                padding: 0px;
+                margin: 0px;
+            }
+            .footer-link{
+                font-size: 0.6rem;
+                margin: 5px;
+                padding-bottom: 10px ;
+            }
+            .name-footer{
+                font-size: 0.8rem;
+                padding-top: 10px ;
+            }
+            .img-footer{
+                width:40px;
+                height: 40px;
+            }
+            .p-footer{
+                font-size: 0.6rem;
+            }
+            .section-derechos{
+            
+                h5{
+                    font-size: 0.5rem;
+            }
+        }}}
+    
+    @media screen and (min-width: 767px) and (max-width:1023px){
+        .navbar{
+            padding: 10px 40px;
+            height: 70px;
+            box-shadow: 2px 2px 10px rgba(231, 230, 230, 0.685);
+            .col-iconHeader{
+                width: 5px;
+            }
+            .icon-header{
+                width:50px;
+                height: 50px;
+                padding:0px;
+                margin:0px;
+            }
+            .nav-link{
+                font-size: 0.8rem;
+                width: 100px;
+                padding: 0px 20px;
+                margin: 0px 5px;
+            }
+            .cv{
+                padding: 8px 30px;
+            }
+        }
+        
+        /*PORTADA*/
+        .col-portada{
+                padding:20px;
+                margin-left: 20px;
+                margin-right: 20px;
+        }
+        .col-portada2{
+            padding-top:20px;
+        }
+        .title{
+            font-size: 2.5rem;
+        }
+        .icons{
+            .fab{
+                font-size: 1.3rem;
+                padding: 15px;
+                margin: 5px;
+            }
+    
+        }
+        /*SERVICIOS*/
+        .servicios{
+            .icon-servicios{
+                height: 30px;
+                width: 35px;  
+            }
+            .lista{
+               
+                .list-servicios{
+                    font-size: 0.6rem;
+                }
+            }
+        }
+        
+        .title-secundario{
+            font-size: 2.5rem;
+        }
+        
+        /*SOBRE MI*/
+      
+        .img-perfil{
+            width:260px;
+            height:260px;
+            border: 2px solid rgb(156, 49, 189); 
+        }
+        /*MIS PROYECTOS*/
+       
+        .intro-proyectos{
+            width:80%;
+        }
+        .container-proyectos{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        /*FOOTER*/
+        
+        footer{
+            background-color: white;
+            color:black;
+            text-decoration: none;
+            box-shadow: 5px 5px 20px rgb(211, 211, 211);
+            margin-top: 30px;
+        
+            .footer-info{
+                height: 30vh;
+            }
+        }}
+    
